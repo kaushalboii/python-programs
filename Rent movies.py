@@ -1,0 +1,5 @@
+n=int(input("Enter number of new movies:"))
+o=int(input("Enter number of old movies:"))
+print("Rent for old movies:",o*50)
+print("Rent for new movies:",n*75)
+print("Total rent:",n*75+o*50)

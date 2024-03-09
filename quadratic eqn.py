@@ -1,0 +1,8 @@
+print("ax^2+bx+c")
+print("Enter a,b,c")
+a=int(input())
+b=int(input())
+c=int(input())
+s1=(-b+(b**2 - 4*a*c)**(1/2))/(2*a)
+s2=(-b-(b**2 - 4*a*c)**(1/2))/(2*a)
+print("The solutions of ",a," x^2+",b,"x+",c,"is:",s1,"&",s2)
